@@ -1,0 +1,84 @@
+.container{
+	display: flex;
+	height: 21vw;
+	width: 21vw;
+	flex-wrap: wrap;
+	position: relative;
+	top: 7vw;
+	left: 38vw;
+}
+
+body{
+	background-color: #905E96;
+	overflow: hidden;
+}
+
+h2{
+	position: relative;
+	margin-bottom: -3.5vw;
+	left: 39.5vw;
+	text-shadow: 0.18vw 0.18vw #4C4C6D;
+	font-size: 4vw;
+	color: pink;
+}
+
+.tile{
+	box-sizing: border-box;
+	height: 7vw;
+	width: 7vw;
+	border: 0.12vw solid pink;
+	border-collapse: collapse;
+	position: relative;
+}
+
+.iconX{
+	height: 6.8vw;
+	width: 6.8vw;
+	position: relative;
+}
+
+.iconO{
+	height: 8.2vw;
+	width: 9vw;
+	position: relative;
+	top: -0.5vw;
+	left: -1.1vw;
+}
+
+#message{
+	position: relative;
+	text-shadow: 0.18vw 0.18vw #4C4C6D;
+	font-size: 3vw;
+	color: pink;
+	display: none;
+	margin-top: 0vw;
+	left: 38vw;
+
+}
+
+
+.buttonsChoose{
+	position: relative;
+	left: 20vw;
+	bottom: 9vw;
+	margin: 0;
+	width: 10vw;
+}
+
+.buttonsChoose div, h3{
+	color: pink;
+	font-size: 1.5vw;
+}
+.buttonsChoose h3{
+	position: relative;
+	left: 0.6vw;
+	margin-bottom: 0.2vw;
+}
+.buttonsChoose div{
+	text-align: center;
+	position: relative;
+	margin-bottom: 0.5vw;
+	border: 0.2vw dotted pink;
+	width: 8vw;
+	border-radius: 0.3vw;
+}
